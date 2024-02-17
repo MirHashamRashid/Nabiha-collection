@@ -4,7 +4,6 @@ import MobileMenu from './MobileMenu';
 import { IoMenuSharp,IoCloseSharp } from "react-icons/io5";
 const MobileMenuIcon = () => {
   
-  const [toggleMenu, isSetToggleMenu] = useState(false)
   const [openMenu, isSetOpenMenu] = useState(false)
 
   const handelClick = () =>{

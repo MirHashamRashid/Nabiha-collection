@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 // import SwiperCore, { Swiper,Navigation, Pagination, Autoplay } from 'swiper';
 import {  SwiperSlide,Swiper } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
@@ -21,7 +21,7 @@ const HeroSection = ({ slides }) => {
 //       },
 //     });
 //   }, []);
-    const effects =[EffectCreative,EffectFade,EffectFlip]
+   
   return (
     <div className="swiper-container">
       <Swiper
