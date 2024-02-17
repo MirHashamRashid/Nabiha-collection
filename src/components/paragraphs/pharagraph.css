@@ -1,0 +1,80 @@
+.pharagraph-container{
+    display: flex;
+    margin:1rem auto;
+    width: 100%;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 1rem 5rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.right-phargraph{
+    display: flex;
+    margin:1rem auto;
+    width: 100%;
+    
+    align-items: flex-end;
+    gap: 3rem;
+    padding: 1rem 5rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.break-point{
+    border-bottom: 7px solid #f6bd60;
+    width:400px;
+    border-radius: 1rem;
+}
+.pharagraph-img-container{
+    width: 200px;
+    color: black;
+    padding: 0.3rem;
+    border-radius: 100%;
+    border-top:4px solid #f6bd60;
+    border-bottom:2px solid #f6bd60;
+}
+.pharagraph-img-container img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.pharagraph-content{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 900px;
+    margin: 3rem 0;
+}
+.pharagraph-content p{
+    margin: 1.5rem 0;
+    font-size: 18px;
+    color: rgb(92, 91, 91);
+}
+.pharagraph-content a{
+    width: max-content;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+.pharagraph-content a:hover{
+    color: #6a4c93;
+}
+
+
+@media screen and (max-width: 600px) {
+   .pharagraph-container{
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+   }
+   .pharagraph-content{
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0 ;
+   }
+   .break-point{
+    width: 100%;
+   }
+}

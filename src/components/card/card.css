@@ -1,0 +1,22 @@
+.card-container{
+    display: flex;
+    padding: 2rem 1rem;
+    border-top: 5px solid #f6bd60;
+    background-color: white;
+   margin-top: 2rem;
+   border-bottom-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+   cursor: pointer;
+   text-align: left;
+   
+   width: 400px;
+}
+.card-arrow{
+    color: #f6bd60;
+    margin-right: 1rem;
+    font-size: 16px;
+}
+
+.arrow{
+    font-size: 35px
+}

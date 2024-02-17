@@ -1,0 +1,47 @@
+.inquire-us-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+.info-container{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    width: 600px;
+}
+.info-container h2{
+    color: rgb(106, 150, 130);
+    text-transform: uppercase;
+}
+.info-container span{
+    margin: 1rem;
+    color: gray;
+}
+.info-container p{
+text-align: left;
+width: 400px;
+}
+.form-container{
+    display: flex;
+    margin-left: 9rem;
+}
+
+@media screen and (max-width:640px) {
+    .inquire-us-main{
+        flex-direction: column;
+    }
+    .form-container{
+    justify-self: center;
+    align-content: center;
+        margin: 0 auto
+    }
+    .info-container{
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+        width: 100%;
+    }  
+   
+}

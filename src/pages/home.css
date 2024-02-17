@@ -1,0 +1,45 @@
+.home-hero-section{
+    background-image: url('../assets/ocean.jpg');
+    width: 100%;
+    top: 0%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home-message{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-message h1{
+    font-size: 45px;
+}
+.home-message p{
+    color: white;
+}
+
+.cards-view-container{
+    margin: 1rem 0;
+    width: 100%;
+    padding: 2rem 6rem;
+    text-align: center;
+}
+.cards-view{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex: 1;
+}
+@media screen and (max-width: 600px) {
+    .cards-view {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-message{
+        text-align: center;
+    }
+
+}

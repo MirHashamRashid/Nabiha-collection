@@ -1,0 +1,5 @@
+.mobile-menu-container{
+    display: flex;
+    align-items: center;
+    width: 45px;
+}

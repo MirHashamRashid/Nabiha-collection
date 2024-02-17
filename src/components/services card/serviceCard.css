@@ -1,0 +1,40 @@
+.service-card-container{
+    margin: 1rem 0;
+    width: 400px;
+    height: 400px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    border-top: 10px solid #f6bd60;
+    /* border: 1px solid black; */
+    background-color: rgb(247, 247, 247);
+    border-radius: 3rem;
+    transition: all 400ms ease;
+   /* background-color: white; */
+}
+.service-card-container:hover{
+    background-color: white;
+    border: 1px solid #f6bd60;
+}
+.service-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-btn{
+ 
+    color: black;
+    font-size: 18px;
+    padding: 6px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    background-color: rgb(157, 169, 184);
+    color: white;
+    border-radius: 0.8rem;
+}
+.card-btn:hover{
+    background: rgb(116, 133, 155);
+    
+}
+
+
